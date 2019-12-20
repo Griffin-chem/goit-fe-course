@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Playfair Display', serif;
+}
+
+
+.menu {
+  list-style-type: none;
+  color: #626262;
+  font-size: 14px;
+  text-align: center;
+  line-height: 24px;
+  margin: 77px 0px 0px 0px;
+  height: 42px;
+}
+
+.menu li {
+  display: inline-block;
+  width: 113px;
+  margin: 0px 28px;
+}
+
+.menu li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu li a:hover {
+  color: #03a9f4;
+}
+
+.wrapper {
+  width: 964px;
+  margin: auto;
+}
+
+.post {
+  display: inline-block;
+  border: 0px;
+  margin: 77px 30px 52px 30px;
+  width: 420px;
+  height: 494px;
+}
+
+
+.subtitle {
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+  color:#b4ad9e;
+  margin: 31px 0px 28px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #626262;
+  margin-bottom: 33px;
+}
+
+.text {
+  font-size: 14px;
+  color: #626262;
+  line-height: 24px;
+  height: 77px;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+.row {
+  text-align: center;
+}
+
+.button {
+  border-width: 1px;
+  border-color: #626262;
+  border-style: solid;
+  width: 162px;
+  height: 58px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #626262;
+  background-color: #ffffff;
+  margin: auto;
+}

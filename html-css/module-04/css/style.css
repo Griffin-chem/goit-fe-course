@@ -105,6 +105,10 @@
   background-color: #e8effc;
 }
 
+.product li a {
+  display: block;
+}
+
 .product li:nth-child(4n) {
   margin-right: 0px;
 }

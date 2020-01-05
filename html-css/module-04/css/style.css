@@ -30,6 +30,10 @@
   letter-spacing: -0.02em;
 }
 
+.logo a {
+  text-decoration: none;
+}
+
 .logo::first-letter {
   color: #1abc9c;
   font-weight: 900;
@@ -52,6 +56,7 @@
 }
 
 .menu li a {
+  display: block;
   text-decoration: none;
   color: #0f0101;
 }
@@ -72,20 +77,23 @@
   font-size: 48px;
   letter-spacing: -0.02em;
   font-weight: 900;
-  margin: 0 auto 32px;
+  margin: 0 auto;
   text-transform: uppercase;
   text-align: center;
 }
 
-.divider1 {
+.prod-head::after {
+  display: block;
+  content: "";
   width: 164px;
   height: 7px;
   background-color: #1abc9c;
-  margin: 0 auto 92px;
+  margin: 32px auto 92px;
 }
 
 .product {
   font-size: 0px;
+  margin-bottom: 103px;
 }
 
 .product li {
@@ -99,10 +107,6 @@
 
 .product li:nth-child(4n) {
   margin-right: 0px;
-}
-
-.product li:nth-child(5) {
-  margin-bottom: 103px;
 }
 
 .prod-img {
@@ -156,16 +160,18 @@
   font-size: 48px;
   letter-spacing: -0.02em;
   font-weight: 900;
-  margin: 0 auto 32px;
+  margin: 0 auto;
   text-transform: uppercase;
   text-align: center;
 }
 
-.divider2 {
+.news-head::after {
+  display: block;
+  content: "";
   width: 164px;
   height: 7px;
   background-color: #4ec6ab;
-  margin: 0 auto 92px;
+  margin: 32px auto 92px;
 }
 
 .news li {
@@ -182,21 +188,22 @@
   margin-bottom: 10px;
 }
 
-h3 {
+.news-caption {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 26px;
   letter-spacing: -0.02em;
-  margin-bottom: 5px;
   color: #555252;
   font-weight: bold;
 }
 
-.news-div {
+.news-caption::after {
+  display: block;
+  content: "";
   width: 136px;
   height: 3px;
   background-color: #4ec6ab;
-  margin-bottom: 23px;
+  margin: 5px 0 23px;
 }
 
 .text {
@@ -211,15 +218,19 @@ h3 {
   width: 160px;
   height: 51px;
   background-color: #4ec6ab;
-  color: #ffffff;
   border-width: 0px;
   border-radius: 3px;
+}
+
+.button a {
+  display: block;
+  color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 51px;
   letter-spacing: -0.02em;
   text-align: center;
-  vertical-align: middle;
+  text-decoration: none;
 }
 
 .button:hover {

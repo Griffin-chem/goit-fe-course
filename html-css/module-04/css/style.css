@@ -77,7 +77,7 @@
   font-size: 48px;
   letter-spacing: -0.02em;
   font-weight: 900;
-  margin: 0 auto;
+  margin: 0 auto 92px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -88,7 +88,7 @@
   width: 164px;
   height: 7px;
   background-color: #1abc9c;
-  margin: 32px auto 92px;
+  margin: 32px auto 0px;
 }
 
 .product {
@@ -111,6 +111,10 @@
 
 .product li:nth-child(4n) {
   margin-right: 0px;
+}
+
+.product li:nth-child(5) {
+  margin-bottom: 0px;
 }
 
 .prod-img {
@@ -219,15 +223,12 @@
 }
 
 .button {
+  display: block;
   width: 160px;
   height: 51px;
   background-color: #4ec6ab;
   border-width: 0px;
   border-radius: 3px;
-}
-
-.button a {
-  display: block;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;

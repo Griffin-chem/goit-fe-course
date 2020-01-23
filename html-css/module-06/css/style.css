@@ -14,23 +14,118 @@
   margin: 0 auto;
 }
 
-/* .logo {} */
-
-/* .menu {} */
-
-.row-1 {
-  font-family: 'Kaushan Script', cursive;
-  font-size: 24px;
-  font-weight: 400;
-  color: #333333;
-  text-align: center;
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  align-items: center;
 }
 
-.row-2 {
+.logo {
+  text-decoration: none;
+  font: 40px 'Roboto', sans-serif;
+}
+
+.menu {
+  display: flex;
+  width: 490px;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu li a:hover {
+  color: red;
+}
+
+.menu li a::after {
+  display: block;
+  content: "";
+  width: 50px;
+  height: 7px;
+  background-color: red;
+  margin-top: 2px;
+  opacity: 0;
+}
+
+.menu li a:hover::after {
+  opacity: 1;
+}
+
+.caption {
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 700;
   color: #333333;
   text-transform: uppercase;
   text-align: center;
+}
+
+.caption span {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 24px;
+  font-weight: 400;
+  color: #333333;
+  text-align: center;
+  text-transform: none;
+}
+
+.service {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.service li {
+  width: 400px;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.photo {
+  font-size: 0px;
+  background-color: teal;
+  position: relative;
+}
+
+.photo img, .photo .social {
+  transition: all 2000ms;
+}
+
+.photo:hover img {
+  transform: translate(-5px, -5px);
+}
+
+.photo:hover .social {
+  transform: translate(-5px, -5px);
+  opacity: 0.8;
+}
+
+.social {
+  position: absolute;
+  display: flex;
+  top: 0px;
+  left: 0px;
+  height: 470px;
+  width: 380px;
+  background: linear-gradient(to bottom, rgba(255, 0, 0), rgba(255, 255, 0));
+  opacity: 0;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social li {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
 }

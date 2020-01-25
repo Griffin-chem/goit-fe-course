@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto:300i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto:400&display=swap');
 
 /* font-family: 'Roboto', sans-serif; */
 /* font-family: 'Montserrat', sans-serif; */
@@ -18,13 +18,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
-  align-items: center;
+  height: 50px;
+  align-items: flex-end;
+  font-size: 0px;
+  margin-bottom: 130px;
 }
 
 .logo {
   text-decoration: none;
-  font: 40px 'Roboto', sans-serif;
+  color: #95e1d3;
+  font: 900 30px 'Montserrat', sans-serif;
 }
 
 .menu {
@@ -32,25 +35,29 @@
   width: 490px;
   justify-content: space-between;
   list-style: none;
+  font: 400 14px 'Montserrat', sans-serif;
 }
 
 .menu li a {
+  color: #95e1d3;
   text-decoration: none;
   text-transform: uppercase;
-}
-
-.menu li a:hover {
-  color: red;
+  transition: color 200ms linear;
 }
 
 .menu li a::after {
   display: block;
   content: "";
-  width: 50px;
-  height: 7px;
-  background-color: red;
-  margin-top: 2px;
+  width: auto;
+  margin-top: 15px;
+  height: 3px;
+  background-color: #f38181;
   opacity: 0;
+  transition: opacity 200ms linear;
+}
+
+.menu li a:hover {
+  color: #f38181;
 }
 
 .menu li a:hover::after {
@@ -64,6 +71,7 @@
   color: #333333;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 45px;
 }
 
 .caption span {
@@ -75,15 +83,36 @@
   text-transform: none;
 }
 
+.caption::after {
+  display: block;
+  content: "";
+  width: 60px;
+  margin: 45px auto 0;
+  height: 3px;
+  background-color: #f38181;
+}
+
 .service {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   list-style: none;
 }
 
 .service li {
-  width: 400px;
+  width: 300px;
+  padding-left: 81px;
+}
+
+.serv-cap {
+  font: 400 14px 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.serv-text {
+  font: 400 15px 'Roboto', sans-serif;
+  color: #999999;
+  line-height: 24px;
 }
 
 .team {

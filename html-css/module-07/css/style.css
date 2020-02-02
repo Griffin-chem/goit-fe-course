@@ -79,7 +79,7 @@
   justify-content: space-between;
   height: 65px;
   align-items: flex-end;
-  margin-bottom: 125px;
+  padding-bottom: 125px;
 }
 
 .logo a {
@@ -113,11 +113,10 @@
 /* Service Section */
 
 .service-section {
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .caption {
-  width: 290px;
   margin: 0 auto 12px;
   text-align: center;
   color: #222222;
@@ -127,7 +126,6 @@
 }
 
 .caption-text {
-  width: 300px;
   margin: 0 auto 75px;
   text-align: center;
   color: #777777;
@@ -158,7 +156,9 @@
   height: 73px;
   margin: 0 auto 24px;
   content: "";
-  background-image: url(../img/basket.png);
+  border: 1px solid #222222;
+  border-radius: 50%;
+  background: url(../img/basket.png) center;
 }
 
 .responsible::before {
@@ -195,7 +195,6 @@
 }
 
 .contact-caption {
-  width: 290px;
   margin: 0 auto 12px;
   text-align: center;
   color: #ffffff;
@@ -205,7 +204,6 @@
 }
 
 .contact-text {
-  width: 300px;
   margin: 0 auto 75px;
   text-align: center;
   color: #777777;
@@ -215,28 +213,35 @@
 .feedback {
   display: flex;
   justify-content: space-between;
-  height: 210px;
-  flex-flow: column wrap;
   margin-bottom: 30px;
 }
 
+.left {
+  flex-basis: calc(50%-10px);
+  flex-flow: column;
+}
+
 .feedback input {
-  width: 455px;
+  width: 100%;
   height: 50px;
   background-color: #ffffff;
-  color: #bbbbbb;
+  color: #777777;
   font: 700 14px 'Montserrat', sans-serif;
-  text-transform: uppercase;
   text-indent: 20px;
   border: 1px solid #cccccc;
   border-radius: 3px;
+}
+
+.feedback input::placeholder {
+  color: #bbbbbb;
+  text-transform: uppercase;
 }
 
 .feedback textarea {
   width: 455px;
   height: 210px;
   background-color: #ffffff;
-  color: #bbbbbb;
+  color: #777777;
   line-height: 48px;
   font: 700 14px 'Montserrat', sans-serif;
   text-transform: uppercase;
@@ -246,14 +251,19 @@
   padding-top: 17px;
 }
 
-.mandatory:valid {
+.feedback textarea::placeholder {
+  color: #bbbbbb;
+  text-transform: uppercase;
+}
+
+.mandatory:focus:valid {
   outline: 2px solid rgb(0,255,0);
 }
 
-.mandatory:invalid {
+.mandatory:focus:invalid {
   outline: 2px solid rgb(255,0,0);
 }
-.button {
+.feedback .button {
   display: block;
   width: 240px;
   height: 65px;

@@ -49,12 +49,16 @@
       <h2 class="contact-caption">Contact us</h2>
       <p class="contact-text">Proin iaculis purus consequat sem cure. </p>
       <form class="feedback wrapper" action="">
-        <input class="mandatory" type="text" name="Name" id="" placeholder="Your name *" required>
-        <input class="mandatory" type="text" name="Mail" id="" placeholder="Your E-mail *" required>
-        <input type="text" name="Subject" id="" placeholder="Subject">
-        <textarea class="mandatory" name="Message" id="" placeholder="Your message *" required></textarea>
+        <div class="left">
+          <input class="mandatory" type="text" name="name" id="name" placeholder="Your name *" required>
+          <input class="mandatory" type="email" name="mail" id="mail" placeholder="Your E-mail *" required>
+          <input type="text" name="subject" id="subject" placeholder="Subject">
+        </div>
+        <div class="right">
+        <textarea class="mandatory" name="Message" id="message" placeholder="Your message *" required></textarea>
+        </div>
+        <input class="button" type="submit" value="Send message">
       </form>
-    <input class="button" type="submit" value="Send message">
     </section>
   </main>
 </body>

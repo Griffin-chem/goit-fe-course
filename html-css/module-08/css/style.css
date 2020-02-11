@@ -206,6 +206,8 @@
   box-sizing: content-box;
 }
 
+/* Tablet design */
+
 @media screen and (min-width:768px) and (max-width:1439px) {
   .wrapper {
     width: 768px;
@@ -220,12 +222,120 @@
     display: flex;
     flex-flow: row;
     justify-content: space-between;
+    align-items: flex-end;
     width: 668px;
     height: auto;
-    margin: 0 auto 150px;
+    margin: 0 auto 140px;
   }
   
   .menu {
     margin: 0;
+  }
+
+  .caption {
+    font-size: 52px;
+    width: 532px;
+    margin: 0 auto 24px;
+  }
+  
+  .cap-text {
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+  
+  .find {
+    width: 226px;
+  }
+  
+  .meeting {
+    display: flex;
+    padding: 69px 0 57px;
+    flex-flow: column;
+  }
+  
+  .meet-caption {
+    margin-bottom: 32px;
+  }
+
+  .partner {
+    flex-flow: column wrap;
+    height: 518px;
+    width: 492px;
+    margin: 0 auto 12px;
+  }
+
+  .partner li {
+    margin-bottom: 50px;
+  }
+ 
+  .partner li:nth-child(2n) {
+    margin-bottom: 0;
+  }
+
+  .see-more {
+    width: 189px;
+  }
+}
+
+/* Desktop design */
+
+@media screen and (min-width:1440px) {
+  .wrapper {
+    width: 940px;
+  }
+
+  .header {
+    background: url(../img/back-desktop.png) center no-repeat;
+    padding: 0 0 234px;
+    width: 100%;
+  }
+  
+  .navigation {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    margin: 0 auto 110px;
+  }
+  
+  .menu {
+    margin: 0;
+  }
+
+  .caption {
+    font-size: 52px;
+    width: 532px;
+    margin: 0 auto 24px;
+  }
+  
+  .cap-text {
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+  
+  .find {
+    width: 226px;
+  }
+  
+  .meeting {
+    display: flex;
+    padding: 69px 0 57px;
+    flex-flow: column;
+  }
+  
+  .meet-caption {
+    margin-bottom: 32px;
+  }
+
+  .partner {
+    flex-flow: row;
+    align-items: flex-start;
+    margin: 0 auto 12px;
+    justify-content: space-between;
+  }
+ 
+  .see-more {
+    width: 189px;
   }
 }

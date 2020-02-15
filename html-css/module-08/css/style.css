@@ -286,7 +286,7 @@
 
   .header {
     background: url(../img/back-desktop.png) center no-repeat;
-    padding: 0 0 234px;
+    padding: 0 0 235px;
     width: 100%;
   }
   
@@ -296,7 +296,7 @@
     justify-content: space-between;
     align-items: center;
     height: 120px;
-    margin: 0 auto 110px;
+    margin: 0 auto 94px;
   }
   
   .menu {
@@ -320,7 +320,7 @@
   
   .meeting {
     display: flex;
-    padding: 69px 0 57px;
+    padding: 66px 0 57px;
     flex-flow: column;
   }
   
@@ -331,7 +331,7 @@
   .partner {
     flex-flow: row;
     align-items: flex-start;
-    margin: 0 auto 12px;
+    margin: 0 auto 8px;
     justify-content: space-between;
   }
  

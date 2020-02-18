@@ -14,8 +14,9 @@
 }
 
 .header {
-  background: url(../img/back-mobile.png) center no-repeat;
+  background: url(../img/back-desktop.png) center no-repeat;
   padding: 20px 0 140px;
+  width: 100%;
 }
 
 .menu {
@@ -214,8 +215,9 @@
   }
 
   .header {
-    background: url(../img/back-tablet.png) center no-repeat;
+    background: url(../img/back-desktop.png) center no-repeat;
     padding: 38px 0 234px;
+    width: 100%;
   }
   
   .navigation {

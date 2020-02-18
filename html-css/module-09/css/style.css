@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: url(../img/background.png) no-repeat center;
+  background-size: cover;
+  padding: 20px 0 140px;
+}
+
+.first {
+  order: 2;
+}
+
+.second {
+  order: 1;
+}
+
+.logo {
+  display: block;
+  font: 700 20px 'Montserrat', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+  margin-bottom: 28px;
+}
+
+.menu {
+  list-style: none;
+  width: 180px;
+  margin: 0 auto 120px;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  width: 86px;
+  height: 32px;
+  text-align: center;
+  border: 2px solid transparent;
+}
+
+.menu li:hover {
+  border: 2px solid #ffffff;
+  border-radius: 32px;
+}
+
+.menu li a {
+  font: 700 14px 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  line-height: 32px;
+}
+
+.caption {
+  font: 700 30px 'Montserrat', sans-serif;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto 8px;
+  width: 320px;
+}
+
+.cap-text {
+  font: 300 18px 'Roboto', sans-serif;
+  color: #ffffff;
+  text-align: center;
+  padding: 0 50px;
+  margin: 0 auto 13px;
+  width: 320px;
+}
+
+.find {
+  display: block;
+  width: 280px;
+  height: 40px;
+  background-color: #ff4e50;
+  margin: 0 auto;
+  font: 700 14px 'Montserrat', sans-serif;
+  color: #ffffff;
+  border: none;
+  border-radius: 40px;
+}
+
+.meeting {
+  padding: 64px 0 57px;
+}
+
+.meet-caption {
+  font: 700 22px 'Montserrat', sans-serif;
+  color: #333333;
+  text-align: center;
+  margin: 64px 0 10px;
+}
+
+.photo {
+  display: block;
+  border-radius: 50%;
+}
+
+.photo-cont {
+  width: 124px;
+  height: 124px;
+  position: relative;
+  margin: 0 auto 18px;
+}
+
+.tv::after {
+  display: block;
+  height: 32px;
+  width: 32px;
+  content: "";
+  border-radius: 50%;
+  background: #ff4e50 url(../img/icon-tv.png) center no-repeat;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 3px solid #ffffff;
+}
+
+.glass::after {
+  display: block;
+  height: 32px;
+  width: 32px;
+  content: "";
+  border-radius: 50%;
+  background: #ffa507 url(../img/icon-glass.png) center no-repeat;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 3px solid #ffffff;
+}
+
+.coffee::after {
+  display: block;
+  height: 32px;
+  width: 32px;
+  content: "";
+  border-radius: 50%;
+  background: #1cd7ad url(../img/icon-coffee.png) center no-repeat;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 3px solid #ffffff;
+}
+
+.telegram::after {
+  display: block;
+  height: 32px;
+  width: 32px;
+  content: "";
+  border-radius: 50%;
+  background: #4e73db url(../img/icon-telegram.png) center no-repeat;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 3px solid #ffffff;
+}
+
+.name {
+  font: 700 14px 'Montserrat', sans-serif;
+  color: #333333;
+  width: 236px;
+  text-align: center;
+  margin: 0 auto 12px;
+}
+
+.feat {
+  font: 300 14px 'Roboto', sans-serif;
+  color: #666666;
+  width: 236px;
+  margin: 0 auto 28px;
+  text-align: center;
+}
+
+.see-more {
+  display: block;
+  font: 700 14px 'Montserrat', sans-serif;
+  color: #ff4e50;
+  height: 36px;
+  width: 276px;
+  border: 2px solid #ff4e50;
+  border-radius: 36px;
+  background-color: #ffffff;
+  box-sizing: content-box;
+  margin-bottom: 57px;
+}
+
+@media screen and (min-width:768px) {
+  .first {
+    order: 1;
+  }
+
+  .second {
+    order: 2;
+  }
+
+  .photo-1 {
+    order: 1;
+  }
+
+  .photo-2 {
+    order: 3;
+  }
+
+  .photo-3 {
+    order: 2;
+  }
+
+  .photo-4 {
+    order: 4;
+  }
+
+  .meet-caption {
+    margin-bottom: 32px;
+  }
+}

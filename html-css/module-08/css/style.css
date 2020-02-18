@@ -28,6 +28,7 @@
 }
 
 .menu li {
+  display: inline-block;
   width: 86px;
   height: 32px;
   text-align: center;

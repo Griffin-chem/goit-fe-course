@@ -5,83 +5,103 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <svg>
-    <use href="img/cart.svg#cart-icon"></use>
-  </svg>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <header>
-    <nav>
-      <a href="">MoGo</a>
-      <ul>
-        <li><a href="">About</a></li>
-        <li><a href="">Service</a></li>
-        <li><a href="">Work</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">
-            <svg>
-              <use href="img/cart.svg#cart-icon"></use>
+  <header class="header">
+    <div class="wrapper">
+    <nav class="navigation">
+      <a class="navigation__logo" href="">MoGo</a>
+      <ul class="navigation__menu menu">
+        <li class="menu__menu-item"><a class="menu__menu-link menu__menu-link--hover" href="">About</a></li>
+        <li class="menu__menu-item"><a class="menu__menu-link menu__menu-link--hover" href="">Service</a></li>
+        <li class="menu__menu-item"><a class="menu__menu-link menu__menu-link--hover" href="">Work</a></li>
+        <li class="menu__menu-item"><a class="menu__menu-link menu__menu-link--hover" href="">Blog</a></li>
+        <li class="menu__menu-item"><a class="menu__menu-link menu__menu-link--hover" href="">Contact</a></li>
+        <li class="menu__menu-item"><a class="menu__menu-link menu__menu-link--hover" href="">
+            <svg class="menu__symbol menu__symbol--hover">
+              <use href="img/symbol-defs.svg#icon-cart"></use>
             </svg>
           </a></li>
-        <li><a href=""></a></li>
+        <li><a href="">
+          <svg class="menu__symbol menu__symbol--hover">
+            <use href="img/symbol-defs.svg#icon-mglass"></use>
+          </svg>
+        </a></li>
       </ul>
     </nav>
     <p>Creative Template</p>
     <h1>Welcome to MoGo</h1>
     <button>Learn more</button>
+  </div>
   </header>
   <section>
     <div>
-      <h2><span></span></h2>
+      <h2><span>We work with</span><br>Amazing services</h2>
       <p></p>
     </div>
     <ul>
       <li>
-        <p></p>
-        <p></p>
+        <p>Photography</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </li>
       <li>
-        <p></p>
-        <p></p>
+        <p>Web design</p>
+        <p>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </li>
       <li>
-        <p></p>
-        <p></p>
+        <p>Creativity</p>
+        <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </li>
       <li>
-        <p></p>
-        <p></p>
+        <p>SEO</p>
+        <p>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
       </li>
       <li>
-        <p></p>
-        <p></p>
+        <p>CSS/HTML</p>
+        <p>Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</p>
       </li>
       <li>
-        <p></p>
-        <p></p>
+        <p>Digital</p>
+        <p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </li>
     </ul>
   </section>
   <section>
-    <h2><span></span></h2>
-    <p></p>
+    <h2><span>Who we are</span><br>Meet our team</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     <ul>
       <li>
-        <div></div>
-        <p></p>
-        <p></p>
+        <div>
+          <picture>
+            <source srcset="img/Matthew.jpg 1x, img\Matthew@2x.jpg 2x">
+              <img src="img/Matthew.jpg" alt="" srcset="img/Matthew@2x.jpg 2x">
+          </picture>
+        </div>
+        <p>Matthew Dix</p>
+        <p>Graphic design</p>
       </li>
       <li>
-        <div></div>
-        <p></p>
-        <p></p>
+        <div>
+          <picture>
+            <source srcset="img/Chris.jpg 1x, img\Chris@2x.jpg 2x">
+              <img src="img/Chris.jpg" alt="" srcset="img/Chris@2x.jpg 2x">
+          </picture>
+        </div>
+        <p>Christopher Campbell</p>
+        <p>Branding/UX design</p>
       </li>
       <li>
-        <div></div>
-        <p></p>
-        <p></p>
+        <div>
+          <picture>
+            <source srcset="img/Michael.jpg 1x, img\Michael@2x.jpg 2x">
+              <img src="img/Michael.jpg" alt="" srcset="img/Michael@2x.jpg 2x">
+          </picture>
+        </div>
+        <p>Michael Fertig</p>
+        <p>Developer</p>
       </li>
     </ul>
   </section>

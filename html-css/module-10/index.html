@@ -12,96 +12,122 @@
 <body>
   <header class="header">
     <div class="wrapper">
-    <nav class="navigation">
-      <a class="navigation__logo" href="">MoGo</a>
-      <ul class="navigation__menu menu">
-        <li class="menu__menu-item"><a class="menu__menu-link menu__menu-link--hover" href="">About</a></li>
-        <li class="menu__menu-item"><a class="menu__menu-link menu__menu-link--hover" href="">Service</a></li>
-        <li class="menu__menu-item"><a class="menu__menu-link menu__menu-link--hover" href="">Work</a></li>
-        <li class="menu__menu-item"><a class="menu__menu-link menu__menu-link--hover" href="">Blog</a></li>
-        <li class="menu__menu-item"><a class="menu__menu-link menu__menu-link--hover" href="">Contact</a></li>
-        <li class="menu__menu-item"><a class="menu__menu-link menu__menu-link--hover" href="">
-            <svg class="menu__symbol menu__symbol--hover">
-              <use href="img/symbol-defs.svg#icon-cart"></use>
-            </svg>
-          </a></li>
-        <li><a href="">
-          <svg class="menu__symbol menu__symbol--hover">
-            <use href="img/symbol-defs.svg#icon-mglass"></use>
-          </svg>
-        </a></li>
-      </ul>
-    </nav>
-    <p>Creative Template</p>
-    <h1>Welcome to MoGo</h1>
-    <button>Learn more</button>
-  </div>
-  </header>
-  <section>
-    <div>
-      <h2><span>We work with</span><br>Amazing services</h2>
-      <p></p>
+      <nav class="navigation">
+        <a class="navigation__logo logo" href="">MoGo</a>
+        <ul class="navigation__menu menu">
+          <li class="menu__menu-item"><a class="menu__menu-link menu__menu-link--hover" href="">About</a></li>
+          <li class="menu__menu-item"><a class="menu__menu-link menu__menu-link--hover" href="">Service</a></li>
+          <li class="menu__menu-item"><a class="menu__menu-link menu__menu-link--hover" href="">Work</a></li>
+          <li class="menu__menu-item"><a class="menu__menu-link menu__menu-link--hover" href="">Blog</a></li>
+          <li class="menu__menu-item"><a class="menu__menu-link menu__menu-link--hover" href="">Contact</a></li>
+          <li class="menu__menu-item"><a class="menu__menu-link menu__menu-link--hover" href="">
+              <svg class="menu__symbol menu__symbol--hover">
+                <use href="img/symbol-defs.svg#icon-cart"></use>
+              </svg>
+            </a></li>
+          <li><a class="menu__menu-link menu__menu-link--hover" href="">
+              <svg class="menu__symbol menu__symbol--hover">
+                <use href="img/symbol-defs.svg#icon-mglass"></use>
+              </svg>
+            </a></li>
+        </ul>
+      </nav>
+      <p class="header__secondary-caption">Creative Template</p>
+      <h1 class="header__primary-caption">Welcome to MoGo</h1>
+      <button class="header__button-more button-more">Learn more</button>
     </div>
-    <ul>
-      <li>
-        <p>Photography</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+  </header>
+
+<!-- Ready up to here!   -->
+
+  <section class="services-section">
+    <div class="section-caption">
+      <h2 class="section-caption__caption"><span class="section-caption__sub-caption">We work with</span><br>Amazing
+        services</h2>
+      <p class="section-caption__text"></p>
+    </div>
+    <ul class="services">
+      <li class="services__item">
+        <p class="services__name">Photography</p>
+        <p class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </li>
-      <li>
-        <p>Web design</p>
-        <p>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+      <li class="services__item">
+        <p class="services__name">Web design</p>
+        <p class="services__text">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </li>
-      <li>
-        <p>Creativity</p>
-        <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+      <li class="services__item">
+        <p class="services__name">Creativity</p>
+        <p class="services__text">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </li>
-      <li>
-        <p>SEO</p>
-        <p>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+      <li class="services__item">
+        <p class="services__name">SEO</p>
+        <p class="services__text">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
       </li>
-      <li>
-        <p>CSS/HTML</p>
-        <p>Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</p>
+      <li class="services__item">
+        <p class="services__name">CSS/HTML</p>
+        <p class="services__text">Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</p>
       </li>
-      <li>
-        <p>Digital</p>
-        <p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+      <li class="services__item">
+        <p class="services__name">Digital</p>
+        <p class="services__text">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </li>
     </ul>
   </section>
-  <section>
-    <h2><span>Who we are</span><br>Meet our team</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <ul>
-      <li>
-        <div>
+  <section class="team-section">
+    <div class="section-caption">
+      <h2 class="section-caption__caption"><span class="section-caption__sub-caption">Who we are</span><br>Meet our team</h2>
+      <p class="section-caption__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.</p>
+    </div>
+    <ul class="team">
+      <li class="team__item">
+        <div class="team__photo team__photo--hover">
           <picture>
             <source srcset="img/Matthew.jpg 1x, img\Matthew@2x.jpg 2x">
-              <img src="img/Matthew.jpg" alt="" srcset="img/Matthew@2x.jpg 2x">
+            <img src="img/Matthew.jpg" alt="" srcset="img/Matthew@2x.jpg 2x">
           </picture>
-        </div>
-        <p>Matthew Dix</p>
-        <p>Graphic design</p>
+          <ul class="team__social team__social--hover social">
+            <li><a class="social__item social__item--hover face" href=""></a></li>
+            <li><a class="social__item social__item--hover twit" href=""></a></li>
+            <li><a class="social__item social__item--hover pin" href=""></a></li>
+            <li><a class="social__item social__item--hover insta" href=""></a></li>
+          </ul>
+      </div>
+        <p class="team__name">Matthew Dix</p>
+        <p class="team__speciality">Graphic design</p>
       </li>
-      <li>
-        <div>
+      <li class="team__item">
+        <div class="team__photo team__photo--hover">
           <picture>
             <source srcset="img/Chris.jpg 1x, img\Chris@2x.jpg 2x">
-              <img src="img/Chris.jpg" alt="" srcset="img/Chris@2x.jpg 2x">
+            <img src="img/Chris.jpg" alt="" srcset="img/Chris@2x.jpg 2x">
           </picture>
+          <ul class="team__social team__social--hover social">
+            <li><a class="social__item social__item--hover face" href=""></a></li>
+            <li><a class="social__item social__item--hover twit" href=""></a></li>
+            <li><a class="social__item social__item--hover pin" href=""></a></li>
+            <li><a class="social__item social__item--hover insta" href=""></a></li>
+          </ul>
         </div>
-        <p>Christopher Campbell</p>
-        <p>Branding/UX design</p>
+        <p class="team__name">Christopher Campbell</p>
+        <p class="team__speciality">Branding/UX design</p>
       </li>
-      <li>
-        <div>
+      <li class="team__item">
+        <div class="team__photo team__photo--hover">
           <picture>
             <source srcset="img/Michael.jpg 1x, img\Michael@2x.jpg 2x">
-              <img src="img/Michael.jpg" alt="" srcset="img/Michael@2x.jpg 2x">
+            <img src="img/Michael.jpg" alt="" srcset="img/Michael@2x.jpg 2x">
           </picture>
+          <ul class="team__social team__social--hover social">
+            <li><a class="social__item social__item--hover face" href=""></a></li>
+            <li><a class="social__item social__item--hover twit" href=""></a></li>
+            <li><a class="social__item social__item--hover pin" href=""></a></li>
+            <li><a class="social__item social__item--hover insta" href=""></a></li>
+          </ul>
         </div>
-        <p>Michael Fertig</p>
-        <p>Developer</p>
+        <p class="team__name">Michael Fertig</p>
+        <p class="team__speciality">Developer</p>
       </li>
     </ul>
   </section>

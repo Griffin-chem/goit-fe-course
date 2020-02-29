@@ -184,7 +184,7 @@ body {
   font: 700 14px 'Montserrat', sans-serif;
   color: #ff4e50;
   height: 36px;
-  width: 276px;
+  max-width: 276px;
   border: 2px solid #ff4e50;
   border-radius: 36px;
   background-color: #ffffff;

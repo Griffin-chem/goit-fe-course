@@ -102,3 +102,129 @@
   font: 700 14px 'Montserrat', sans-serif;
   text-transform: uppercase;
 }
+
+.service-caption {
+  margin: 0 auto;
+}
+
+.section-caption__caption {
+  font: 700 30px 'Montserrat', sans-serif;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-caption__sub-caption {
+  font: 400 24px 'Kaushan Script', sans-serif;
+  text-transform: none;
+}
+
+.section-caption__caption::after {
+  display: block;
+  content: "";
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+  margin: 40px auto 45px;
+}
+
+.section-caption__text {
+  font: 400 15px 'Roboto', sans-serif;
+  color: #999999;
+  width: 980px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin-bottom: 90px;
+  height: 250px;
+  align-items: center;
+}
+
+.services__item {
+  width: 300px;
+  padding-left: 81px;
+}
+
+.services__name {
+  font: 400 14px 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.services__text {
+  font: 400 15px 'Roboto', sans-serif;
+  color: #999999;
+  line-height: 24px;
+}
+
+.clock::before {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: -59px;
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url(../img/alarm.png);
+}
+
+.web::before {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: -59px;
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url(../img/line.png);
+}
+
+.create::before {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: -59px;
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url(../img/comp.png);
+}
+
+.seo::before {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: -59px;
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url(../img/book.png);
+}
+
+.css::before {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: -59px;
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url(../img/home.png);
+}
+
+.digital::before {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: -59px;
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url(../img/bracket.png);
+}

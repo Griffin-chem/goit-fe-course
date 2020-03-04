@@ -78,7 +78,7 @@ body {
 
 .find {
   display: block;
-  max-width: 280px;
+  width: 280px;
   height: 40px;
   background-color: #ff4e50;
   margin: 0 auto;
@@ -166,7 +166,7 @@ body {
 .name {
   font: 700 14px 'Montserrat', sans-serif;
   color: #333333;
-  width: 236px;
+  max-width: 220px;
   text-align: center;
   margin: 0 auto 12px;
 }
@@ -174,7 +174,7 @@ body {
 .feat {
   font: 300 14px 'Roboto', sans-serif;
   color: #666666;
-  width: 236px;
+  max-width: 220px;
   margin: 0 auto 28px;
   text-align: center;
 }
@@ -184,11 +184,10 @@ body {
   font: 700 14px 'Montserrat', sans-serif;
   color: #ff4e50;
   height: 36px;
-  max-width: 276px;
+  width: 276px;
   border: 2px solid #ff4e50;
   border-radius: 36px;
   background-color: #ffffff;
-  box-sizing: content-box;
   margin-bottom: 57px;
 }
 
@@ -219,5 +218,15 @@ body {
 
   .meet-caption {
     margin-bottom: 32px;
+  }
+
+  .caption {
+    font-size: 52px;
+    max-width: 500px;
+  }
+
+  .cap-text {
+    font-size: 24px;
+    max-width: 500px;
   }
 }

@@ -228,3 +228,16 @@
   height: 32px;
   background-image: url(../img/bracket.png);
 }
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.team__photo-cont {
+  font-size: 0px;
+  background-color: #95e1d3;
+  position: relative;
+  margin-bottom: 30px;
+}

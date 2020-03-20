@@ -53,6 +53,10 @@
   height: 14px;
 }
 
+.menu__symbol--hover:hover {
+  fill: #fce38a
+}
+
 .menu__menu-link::after {
   display: block;
   content: "";

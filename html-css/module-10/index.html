@@ -38,13 +38,13 @@
     </div>
   </header>
 
-  <section class="services-section">
+  <section class="services-section wrapper">
     <div class="section-caption">
       <h2 class="section-caption__caption"><span class="section-caption__sub-caption">We work with</span><br>Amazing
         services</h2>
       <p class="section-caption__text"></p>
     </div>
-    <ul class="services">
+    <ul class="services-section__services services">
       <li class="services__item">
         <p class="services__name clock">Photography</p>
         <p class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
@@ -71,71 +71,127 @@
       </li>
     </ul>
   </section>
-  
-  <!-- Ready up to here!   -->
 
-<section class="team-section">
+  <section class="team-section wrapper">
     <div class="section-caption">
-      <h2 class="section-caption__caption"><span class="section-caption__sub-caption">Who we are</span><br>Meet our team</h2>
-      <p class="section-caption__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      <h2 class="section-caption__caption"><span class="section-caption__sub-caption">Who we are</span><br>Meet our team
+      </h2>
+      <p class="section-caption__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore
         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
         consequat.</p>
     </div>
     <ul class="team">
       <li class="team__item">
         <div class="team__photo-cont">
-          <picture class="team__photo team__photo--hover">
-            <source srcset="img/Matthew.jpg 1x, img\Matthew@2x.jpg 2x">
-            <img src="img/Matthew.jpg" alt="" srcset="img/Matthew@2x.jpg 2x">
-          </picture>
-          <ul class="team__social team__social--hover social">
-            <li><a class="social__item social__item--hover face" href=""></a></li>
-            <li><a class="social__item social__item--hover twit" href=""></a></li>
-            <li><a class="social__item social__item--hover pin" href=""></a></li>
-            <li><a class="social__item social__item--hover insta" href=""></a></li>
-          </ul>
-      </div>
+          <div class="team__photo team__photo--hover">
+            <picture>
+              <source srcset="img/Matthew.jpg 1x, img\Matthew@2x.jpg 2x">
+              <img src="img/Matthew.jpg" alt="" srcset="img/Matthew@2x.jpg 2x">
+            </picture>
+            <ul class="team__social team__social--hover social">
+              <li><a class="social__item social__item--hover" href="">
+                  <svg class="social__icon social__icon--hover">
+                    <use href="img/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a></li>
+              <li><a class="social__item social__item--hover" href="">
+                  <svg class="social__icon social__icon--hover">
+                    <use href="img/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a></li>
+              <li><a class="social__item social__item--hover" href="">
+                  <svg class="social__icon social__icon--hover">
+                    <use href="img/symbol-defs.svg#icon-pinterest"></use>
+                  </svg>
+                </a></li>
+              <li><a class="social__item social__item--hover" href="">
+                  <svg class="social__icon social__icon--hover">
+                    <use href="img/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a></li>
+            </ul>
+          </div>
+        </div>
         <p class="team__name">Matthew Dix</p>
         <p class="team__speciality">Graphic design</p>
       </li>
       <li class="team__item">
         <div class="team__photo-cont">
-          <picture class="team__photo team__photo--hover">
-            <source srcset="img/Chris.jpg 1x, img\Chris@2x.jpg 2x">
-            <img src="img/Chris.jpg" alt="" srcset="img/Chris@2x.jpg 2x">
-          </picture>
-          <ul class="team__social team__social--hover social">
-            <li><a class="social__item social__item--hover face" href=""></a></li>
-            <li><a class="social__item social__item--hover twit" href=""></a></li>
-            <li><a class="social__item social__item--hover pin" href=""></a></li>
-            <li><a class="social__item social__item--hover insta" href=""></a></li>
-          </ul>
+          <div class="team__photo team__photo--hover">
+            <picture class="team__photo team__photo--hover">
+              <source srcset="img/Chris.jpg 1x, img\Chris@2x.jpg 2x">
+              <img src="img/Chris.jpg" alt="" srcset="img/Chris@2x.jpg 2x">
+            </picture>
+            <ul class="team__social team__social--hover social">
+              <li><a class="social__item social__item--hover" href="">
+                  <svg class="social__icon social__icon--hover">
+                    <use href="img/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a></li>
+              <li><a class="social__item social__item--hover" href="">
+                  <svg class="social__icon social__icon--hover">
+                    <use href="img/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a></li>
+              <li><a class="social__item social__item--hover" href="">
+                  <svg class="social__icon social__icon--hover">
+                    <use href="img/symbol-defs.svg#icon-pinterest"></use>
+                  </svg>
+                </a></li>
+              <li><a class="social__item social__item--hover" href="">
+                  <svg class="social__icon social__icon--hover">
+                    <use href="img/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a></li>
+            </ul>
+          </div>
         </div>
         <p class="team__name">Christopher Campbell</p>
         <p class="team__speciality">Branding/UX design</p>
       </li>
       <li class="team__item">
         <div class="team__photo-cont">
-          <picture class="team__photo team__photo--hover">
-            <source srcset="img/Michael.jpg 1x, img\Michael@2x.jpg 2x">
-            <img src="img/Michael.jpg" alt="" srcset="img/Michael@2x.jpg 2x">
-          </picture>
-          <ul class="team__social team__social--hover social">
-            <li><a class="social__item social__item--hover face" href=""></a></li>
-            <li><a class="social__item social__item--hover twit" href=""></a></li>
-            <li><a class="social__item social__item--hover pin" href=""></a></li>
-            <li><a class="social__item social__item--hover insta" href=""></a></li>
-          </ul>
+          <div class="team__photo team__photo--hover">
+            <picture class="team__photo team__photo--hover">
+              <source srcset="img/Michael.jpg 1x, img\Michael@2x.jpg 2x">
+              <img src="img/Michael.jpg" alt="" srcset="img/Michael@2x.jpg 2x">
+            </picture>
+            <ul class="team__social team__social--hover social">
+              <li><a class="social__item social__item--hover" href="">
+                  <svg class="social__icon social__icon--hover">
+                    <use href="img/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a></li>
+              <li><a class="social__item social__item--hover" href="">
+                  <svg class="social__icon social__icon--hover">
+                    <use href="img/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a></li>
+              <li><a class="social__item social__item--hover" href="">
+                  <svg class="social__icon social__icon--hover">
+                    <use href="img/symbol-defs.svg#icon-pinterest"></use>
+                  </svg>
+                </a></li>
+              <li><a class="social__item social__item--hover" href="">
+                  <svg class="social__icon social__icon--hover">
+                    <use href="img/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a></li>
+            </ul>
+          </div>
         </div>
         <p class="team__name">Michael Fertig</p>
         <p class="team__speciality">Developer</p>
       </li>
     </ul>
   </section>
-  <footer>
-    <p><a href=""></a></p>
-    <input type="email" name="" id="">
-    <input type="button" value="">
+  <footer class="footer wrapper">
+    <p class="footer__copyright copyright">© 2016 MoGo free PSD template by <a class="copyright__link" href="">Laaqiq</a></p>
+    <form class="footer__subscribe subscribe">
+    <input class="subscribe__email" type="email" name="email" placeholder="Your Email...">
+    <input class="subscribe__submit" type="button" value="subscribe">
+  </form>
   </footer>
 </body>
 

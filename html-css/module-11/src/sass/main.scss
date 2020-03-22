@@ -1,0 +1,24 @@
+/*
+ * Все паршалы импортировать в этот файл
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto:300,300i,400&display=swap');
+@import 'helpers/variables.scss';
+@import 'helpers/mixins.scss';
+@import 'normalize.scss';
+@import 'base.scss';
+
+@import 'components/wrapper.scss';
+@import 'components/header.scss';
+@import 'components/navigation.scss';
+@import 'components/logo.scss';
+@import 'components/menu.scss';
+@import 'components/header-content.scss';
+@import 'components/main-section.scss';
+@import 'components/main-caption.scss';
+@import 'components/services.scss';
+@import 'components/service-icons.scss';
+@import 'components/team.scss';
+@import 'components/social.scss';
+@import 'components/footer.scss';
+@import 'components/subscribe.scss';

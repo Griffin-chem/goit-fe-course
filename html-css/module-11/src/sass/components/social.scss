@@ -1,0 +1,38 @@
+.social {
+  position: absolute;
+  display: flex;
+  top: 0px;
+  left: 0px;
+  height: 470px;
+  width: 380px;
+  background: linear-gradient(to top, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%);;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
+}
+
+.social:hover {
+  opacity: 1;
+}
+
+.social__item {
+  display: block;
+  background-color: #fce38a;
+  padding: 14px;  
+  fill: #f38181;
+  text-align: center;
+  margin-right: 1px;
+}
+
+.social__item:hover {
+  background-color: #f38181;
+  border: 1px solid #f38181;
+  fill: #ffffff;
+}
+
+.social__icon {
+  height: 26px;
+  width: 26px;
+}

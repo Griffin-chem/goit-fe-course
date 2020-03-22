@@ -1,0 +1,44 @@
+.team {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 0;
+}
+
+.team__item {
+  margin-bottom: 30px;
+}
+
+.team__photo-cont {
+  font-size: 0px;
+  background-color: #95e1d3;
+  position: relative;
+  height: 470px;
+  width: 380px;
+}
+
+.team__photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.team__photo:hover {
+  transform: translate(-10px, -10px);
+}
+
+.team__name {
+  @include font-full ($main-font, 400, 14px, $main-color, uppercase);
+  text-align: center;
+  width: 380px;
+  margin-bottom: 12px;
+}
+
+.team__speciality {
+  @include font-full ($text-font, 300, 15px, $text-color, capitalize);
+  font-style: italic;
+  line-height: 24px;
+  text-align: center;
+  width: 380px;
+}

@@ -1,0 +1,23 @@
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  height: 250px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.services__item {
+  width: 381px;
+  padding-left: 81px;
+}
+
+.services__name {
+  @include font-full ($main-font, 400, 14px, $main-color, uppercase);
+  position: relative;
+}
+
+.services__text {
+  @include font-full ($text-font, 400, 15px, $text-color, none);
+  line-height: 24px;
+}

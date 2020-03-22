@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.copyright {
+  @include font-full ($main-font, 400, 14px, $main-color, none);
+}
+
+.copyright__link {
+  @include font-full ($main-font, 400, 14px, #f38181, none);
+  text-decoration: none;
+}

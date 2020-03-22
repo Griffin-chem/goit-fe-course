@@ -1,0 +1,23 @@
+.clock::before {
+  @include icon ('../images/alarm.png');
+}
+
+.web::before {
+  @include icon ('../images/line.png');
+}
+
+.create::before {
+  @include icon ('../images/comp.png');
+}
+
+.seo::before {
+  @include icon ('../images/book.png');
+}
+
+.css::before {
+  @include icon ('../images/home.png');
+}
+
+.digital::before {
+  @include icon ('../images/bracket.png');
+}

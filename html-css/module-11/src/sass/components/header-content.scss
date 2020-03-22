@@ -1,0 +1,24 @@
+.primary-caption {
+  @include font-full ($main-font, 700, 150px, $header-color, uppercase);
+  width: 820px;
+  text-align: center;
+  line-height: 140px;
+  margin: 0 auto 87px;
+}
+
+.secondary-caption {
+  @include font-full ($feature-font, 400, 72px, $header-color, none);
+  width: 820px;
+  text-align: center;
+  margin: 150px auto 13px;
+}
+
+.button-more {
+  margin: 0 auto;
+  display: block;
+  background-color: transparent;
+  width: 161px;
+  height: 40px;
+  border: 3px solid #ffffff;
+  @include font-full ($main-font, 400, 14px, $header-color, uppercase);
+}

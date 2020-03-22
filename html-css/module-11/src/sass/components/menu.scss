@@ -1,0 +1,40 @@
+.menu {
+  display: flex;
+  width: 620px;
+  justify-content: space-between;
+  list-style: none;
+  @include font-full ($main-font, 400, 14px, $header-color, uppercase);
+}
+
+.menu li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu li a svg {
+  fill: $header-color;
+  height: 14px;
+  width: 14px;
+}
+
+.menu li a::after {
+  display: block;
+  content: "";
+  width: auto;
+  margin-top: 15px;
+  height: 3px;
+  background-color: #fce38a;
+  opacity: 0;
+}
+
+.menu li a:hover {
+  color: $menu-color-hover;
+}
+
+.menu li svg:hover {
+  fill: $menu-color-hover;
+}
+
+.menu li a:hover::after {
+  opacity: 1;
+}

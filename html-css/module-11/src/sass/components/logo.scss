@@ -1,0 +1,4 @@
+.logo {
+  @include font-full ($main-font, 700, 30px, $header-color, none);
+  text-decoration: none;
+}

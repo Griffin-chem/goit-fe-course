@@ -1,0 +1,16 @@
+@mixin font-full ($font-family, $font-weight, $font-size, $font-color, $tranform) {
+  font: $font-weight $font-size $font-family;
+  color: $font-color;
+  text-transform: $tranform;
+}
+
+@mixin icon ($url) {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: -59px;
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url($url);
+}
